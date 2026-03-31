@@ -285,3 +285,26 @@ footer {
         margin: 0 10px;
     }
 }
+.hero-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #f1dfe6;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    width: 250px;
+}
+
+.hero-card h3 {
+    margin-bottom: 15px;
+    color: #d36c95;
+}
+
+.hero-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero-card li {
+    margin-bottom: 10px;
+    color: #555;
+}
