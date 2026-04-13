@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fdfcff;
+    color: #2e2e2e;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+nav h2 {
+    font-weight: bold;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(
+        135deg,
+        #ffd6e0,
+        #ffe7c7,
+        #e0f7ff,
+        #e8d7ff
+    );
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 8%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+/* PROJECT BUTTON */
+.project-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #333;
+    background: linear-gradient(
+        135deg,
+        #ffd6e0,
+        #ffe7c7,
+        #e0f7ff,
+        #e8d7ff
+    );
+    transition: 0.3s;
+}
+
+/* HOVER EFFECTS */
+.project-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(200, 200, 200, 0.4);
+}
+
+/* CARD HOVER UPGRADE */
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* NAV HOVER */
+.links a:hover {
+    color: #a88bc9;
+}
+
+/* SMOOTH FADE-IN */
+.section {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
